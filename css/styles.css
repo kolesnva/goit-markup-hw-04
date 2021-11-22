@@ -6,6 +6,8 @@ body {font-family: roboto, sans-serif;}
     --secondary-black-color: #212121;
     --main-text-color: #757575;
     --main-blue-color: #2196F3;
+    --button-hover-color: #188CE8;
+    --button-hover-text-color: rgba(255, 255, 255, 1);
     --main-white-color: #FFFFFF;
     --transparent-white-color: #FFFFFF99;
     --main-background-color: #2F303A;
@@ -233,8 +235,8 @@ img {
 .hero-section-btn:hover,
 .hero-section-btn:active,
 .hero-section-btn:focus {
-    background-color: var(--main-white-color);
-    color: var(--main-blue-color);
+    background-color: var(--button-hover-color);
+    color: var(--button-hover-text-color);
 }
 /* FEATURES SECTION */
 .features-section {

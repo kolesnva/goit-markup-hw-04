@@ -549,7 +549,6 @@ img {
     letter-spacing: 0.03em;
     background-color: var(--secondary-background-color);
     color: var(--secondary-black-color);
-    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.4);
     cursor: pointer;
 }
 .filter-btn.current {
@@ -561,6 +560,7 @@ img {
 .filter-btn:active {
     background-color: var(--main-blue-color);
     color: var(--main-white-color);
+    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.4);
 }
 .projects-list {
     display: flex;
@@ -570,10 +570,18 @@ img {
     margin-right: 30px;
     margin-bottom: 30px;
 }
+.project-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
 .projects-item:nth-child(3n) {
     margin-right: 0px;
 }
-.projects-item:hover {
+.project-link:hover,
+.project-link:focus,
+.project-link:active {
     box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.4);
 }
 .projects-text-container {

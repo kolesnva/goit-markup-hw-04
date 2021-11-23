@@ -189,6 +189,9 @@ img {
 }
 /* HERO */
 .hero-section {
+    max-width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: var(--main-background-color);
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
@@ -197,8 +200,6 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 200px;
 }
 .hero-section-title {
     max-width: 696px;
@@ -263,7 +264,8 @@ img {
     width: 270px;
     height: 120px;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    margin-bottom: 30px;
     background-color: var(--secondary-background-color)
 }
 .features-subtitle {
@@ -344,7 +346,10 @@ img {
 .our-team-item {
     margin-right: 30px;
     background-color: var(--main-white-color);
-    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .our-team-item:nth-child(4n) {
     margin-right: 0px;
@@ -352,6 +357,8 @@ img {
 .team-mate-info {
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-left: 32px;
+    margin-right: 32px;
 }
 .our-team-position {
     margin-bottom: 16px;
@@ -445,7 +452,6 @@ img {
 .footer-logo-link {
     display: block;
     margin-bottom: 20px;
-    margin-left: auto;
 }
 .footer-contacts-item-adress {
     margin-bottom: 9px;
@@ -560,7 +566,9 @@ img {
 .filter-btn:active {
     background-color: var(--main-blue-color);
     color: var(--main-white-color);
-    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.4);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0,12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0,08),
+    0px 3px 1px 0px rgba(0, 0, 0, 0,1); 
 }
 .projects-list {
     display: flex;
@@ -582,7 +590,8 @@ img {
 .project-link:hover,
 .project-link:focus,
 .project-link:active {
-    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .projects-text-container {
     padding: 20px 24px;
